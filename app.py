@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load(r"C:\Users\subag\Downloads\Airline_sat\Air_line_model.pkl")
+model = joblib.load(r"Air_line_model.pkl")
 
 # Streamlit app title
 st.title("Airline Passenger Satisfaction Predictor")
